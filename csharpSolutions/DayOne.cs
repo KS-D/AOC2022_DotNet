@@ -22,14 +22,14 @@ public class DayOne : ISolver
         _elfCalories.Sort();
     }
 
-    public long PartOne()
+    public string PartOne()
     {
-        return GetNMostCalories(1);
+        return GetNMostCalories(1).ToString();
     }
 
-    public long PartTwo()
+    public string PartTwo()
     {
-        return GetNMostCalories(3);
+        return GetNMostCalories(3).ToString();
     }
 
     private long GetNMostCalories(ushort elfCount)

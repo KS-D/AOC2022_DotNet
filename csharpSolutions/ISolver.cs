@@ -3,6 +3,6 @@ namespace csharpSolutions;
 public interface ISolver
 {
     void Initialize(List<string> input);
-    long PartOne();
-    long PartTwo();
+    string PartOne();
+    string PartTwo();
 }

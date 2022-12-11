@@ -19,7 +19,7 @@ public class DayFourTests
     {
         var day4 = new DayFour();
         day4.Initialize(input);
-        Assert.Equal(2, day4.PartOne());
+        Assert.Equal("2", day4.PartOne());
     }
     
     [Fact]
@@ -27,7 +27,7 @@ public class DayFourTests
     {
         var day4 = new DayFour();
         day4.Initialize(input);
-        Assert.Equal(4, day4.PartTwo());
+        Assert.Equal("4", day4.PartTwo());
     }
     
 }

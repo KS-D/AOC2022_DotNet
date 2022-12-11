@@ -32,6 +32,6 @@ public class DayTwo : ISolver
         _partTwoScore = gameScores.partTwoVal;
     }
     
-    public long PartOne() => _partOneScore;
-    public long PartTwo() => _partTwoScore;
+    public string PartOne() => _partOneScore.ToString();
+    public string PartTwo() => _partTwoScore.ToString();
 }

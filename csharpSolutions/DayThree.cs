@@ -18,7 +18,7 @@ public class DayThree : ISolver
         _elfGroups = input.Chunk(3).ToList();
     }
 
-    public long PartOne()
+    public string PartOne()
     {
         long result = 0;
         foreach (var bag in _bags)
@@ -31,10 +31,10 @@ public class DayThree : ISolver
             result += val;
         }
 
-        return result;
+        return result.ToString();
     }
 
-    public long PartTwo()
+    public string PartTwo()
     {
         long result = 0;
         foreach (var elves in _elfGroups)
@@ -50,7 +50,7 @@ public class DayThree : ISolver
             result += val;
         }
 
-        return result;
+        return result.ToString();
     }
 
     public long CharToInt(char c)

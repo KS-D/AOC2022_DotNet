@@ -20,7 +20,7 @@ public class DayThreeTests
         DayThree day3 = new();
         day3.Initialize(input);
         var result = day3.PartOne();
-        Assert.Equal(157, result);
+        Assert.Equal("157", result);
     }
 
     [Fact]
@@ -29,7 +29,7 @@ public class DayThreeTests
         DayThree day3 = new();
         day3.Initialize(input);
         var result = day3.PartTwo();
-        Assert.Equal(70, result);
+        Assert.Equal("70", result);
     }
     
     [Fact]

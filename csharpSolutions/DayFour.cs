@@ -18,7 +18,7 @@ public class DayFour : ISolver
         }
     }
 
-    public long PartOne()
+    public string PartOne()
     {
         long result = 0;
         foreach (var elfPair in _elfCleaning)
@@ -31,10 +31,10 @@ public class DayFour : ISolver
                 result++;
         }
 
-        return result;
+        return result.ToString();
     }
 
-    public long PartTwo()
+    public string PartTwo()
     {
         long result = 0;
         foreach (var elfPair in _elfCleaning)
@@ -47,6 +47,6 @@ public class DayFour : ISolver
                 result++;
         }
 
-        return result;
+        return result.ToString();
     }
 }

@@ -26,7 +26,7 @@ void GetSolver(List<ISolver> solvers, int day, InputParser parser)
 void Menu()
 {
     var day = 15;
-    var solvers = new List<ISolver>{ new DayOne(), new DayTwo(), new DayThree(), new DayFour() };
+    var solvers = new List<ISolver>{ new DayOne(), new DayTwo(), new DayThree(), new DayFour(), new DayFive() };
     InputParser parser = new();
     
     Console.WriteLine("Welcome to advent of code 2022! 🎅");
